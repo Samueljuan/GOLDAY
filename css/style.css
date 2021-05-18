@@ -1,12 +1,3 @@
-/******************************************************************
-  Template Name: Gutim
-  Description: Gutim Fitness HTML Template
-  Author: Colorlib
-  Author URI: http://colorlib.com
-  Version: 1.0
-  Created: Colorlib
-******************************************************************/
-
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -21,9 +12,9 @@
 5.  Services Section
 6.  Class Section
 7.  Trainer Section
-8.  Membership Plan Section
-9.  Contact
-10.  Footer Style
+8.  Contact
+9.  Footer Style
+10. Login
 
 -------------------------------------------------------------------*/
 
@@ -483,7 +474,7 @@ ul, ol {
    margin-bottom: 0;
 }
 
-.services-section{
+.services-section {
    background-image: url(../img/services/service-pic.jpg);
    background-repeat: no-repeat;
    background-size: 100% 100%;
@@ -502,7 +493,8 @@ ul, ol {
 .classes-section.classes-page {
    padding-bottom: 60px;
 }
-.classes-section .section-title h2{
+
+.classes-section .section-title h2 {
    color: #58198C;
 }
 
@@ -821,7 +813,8 @@ ul, ol {
    color: #ffffff;
    margin-bottom: 50px;
 }
-.banner-section .primary-btn:after{
+
+.banner-section .primary-btn:after {
    background-color: #FF0363!important;
 }
 
@@ -903,7 +896,8 @@ ul, ol {
    padding-left: 2em;
    padding-right: 2em;
 }
-.footer-banner-item .primary-btn:after{
+
+.footer-banner-item .primary-btn:after {
    background-color: #FF0363;
 }
 
@@ -979,50 +973,6 @@ ul, ol {
    right: 0;
    top: 0;
    padding: 0 22px;
-}
-
-.copyright-text {
-   overflow: hidden;
-}
-
-.copyright-text p {
-   padding-top: 6px;
-   float: left;
-   color: #ffffff;
-   margin-right: 25px;
-   display: inline-block;
-}
-
-.copyright-text p a {
-   color: #ffffff;
-}
-
-.copyright-text p a:hover {
-   color: #eb3c5a;
-}
-
-.copyright-text ul {
-   display: inline-block;
-}
-
-.copyright-text ul li {
-   list-style: none;
-   font-size: 16px;
-   display: inline-block;
-   margin-right: 25px;
-   line-height: 40px;
-}
-
-.copyright-text ul li:last-child {
-   margin-right: 0;
-}
-
-.copyright-text ul li a {
-   color: #ffffff;
-}
-
-.copyright-text ul li:last-child {
-   margin-right: 0;
 }
 
 .footer-section .footer-social {
@@ -1102,7 +1052,7 @@ ul, ol {
    padding-top: 0;
 }
 
-.classes-timetable .section-title h2{
+.classes-timetable .section-title h2 {
    color: #54008C;
 }
 
@@ -1342,7 +1292,7 @@ ul, ol {
    padding-bottom: 50px;
 }
 
-.blog-section .section-title h2{
+.blog-section .section-title h2 {
    color: #54008C;
 }
 
@@ -1551,7 +1501,6 @@ ul, ol {
    margin-left: 25px;
 }
 
-
 /*---------------------
   Map Section
 -----------------------*/
@@ -1560,7 +1509,8 @@ ul, ol {
    height: 612px;
    position: relative;
 }
-.map .section-title h2{
+
+.map .section-title h2 {
    margin-top: 2em;
    color: #54008C;
 }
@@ -1569,13 +1519,14 @@ ul, ol {
    width: 100%;
 }
 
-
 /*---------------------
   Contact Section
 -----------------------*/
-.contact-section{
+
+.contact-section {
    margin-top: 10em;
 }
+
 .contact-info h4 {
    font-weight: 600;
    color: #54008C;
@@ -1699,6 +1650,105 @@ ul, ol {
    text-transform: uppercase;
 }
 
+/*---------------------
+  Login Section
+-----------------------*/
+
+.login-section {
+   background: url(../img/login/login.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   padding-top: 10em;
+}
+
+.login-section .container {
+   width: 30%;
+   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+   padding: 40px;
+}
+
+.login-section button {
+   width: 49%;
+}
+
+.login-section p {
+   padding-top: 5%;
+   font-size: 13px;
+}
+
+.login-section .form-group, .login-section h4 {
+   color: #FF00CE;
+}
+
+.login-section p {
+   color: #FF00CE;
+}
+
+.login-section .sign-up {
+   color: #00FCCA;
+}
+
+.login-section p.forget {
+   color: #FF0363;
+   margin-top: -3em;
+}
+
+.login-section .btn-primary {
+   background-color: #18E3F1;
+}
+
+/*---------------------
+  Signup Section
+-----------------------*/
+
+.signup-section {
+   background: url(../img/login/signup.jpg);
+   background-size: cover;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+   background-attachment: fixed;
+   padding-top: 10em;
+}
+
+.signup-section .container {
+   width: 50%;
+   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+   padding: 40px;
+}
+
+.signup-section button {
+   width: 49%;
+}
+
+.signup-section p {
+   padding-top: 5%;
+   font-size: 13px;
+}
+
+.signup-section .form-group, .signup-section h4 {
+   color: #FF00CE;
+}
+
+.signup-section p {
+   color: #FF00CE;
+   text-align: right;
+}
+
+.signup-section .sign-up {
+   color: #00FCCA;
+  
+}
+
+.signup-section .btn-primary {
+   background-color: #18E3F1;
+}
+
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
 @media only screen and (min-width: 1200px) {
@@ -1770,9 +1820,6 @@ ul, ol {
    }
    .trainer-section {
       padding-bottom: 80px;
-   }
-   .membership-item {
-      margin-bottom: 40px;
    }
    .subscribe-option .so-text {
       float: none;
@@ -1868,15 +1915,6 @@ ul, ol {
    .banner-text {
       padding-top: 40px;
    }
-   .copyright-text {
-      text-align: center;
-   }
-   .copyright-text p {
-      float: none;
-      display: block;
-      margin-bottom: 20px;
-      margin-right: 0;
-   }
    .footer-section .footer-social {
       float: none;
    }
@@ -1943,9 +1981,6 @@ ul, ol {
    }
    .footer-section .subscribe-form {
       width: 260px;
-   }
-   .copyright-text ul li {
-      margin-right: 15px;
    }
    .services-item {
       padding-left: 40px;
