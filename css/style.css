@@ -1867,6 +1867,75 @@ ul, ol {
    padding-right: -100px;
 }
 
+/*---------------------
+  Profile Section
+-----------------------*/
+
+.profile-section {
+   margin-top: 10em;
+   margin-bottom: 10em;
+}
+.profile-section .btn-primary {
+   float: right;
+   background-color: #18E3F1;
+   border: none;
+   margin-right: 2em;
+}
+
+/*---------------------
+  Edit Profile Section
+-----------------------*/
+
+.editprofile-section {
+   background: url(../img/login/signup.jpg);
+   background-size: cover;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+   background-attachment: fixed;
+   padding-top: 10em;
+}
+
+.editprofile-section .container {
+   width: 50%;
+   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+   padding: 40px;
+}
+
+.editprofile-section button {
+   width: 49%;
+}
+
+.editprofile-section p {
+   padding-top: 5%;
+   font-size: 13px;
+}
+
+.editprofile-section .form-group, .editprofile-section h4 {
+   color: #FF00CE;
+}
+
+.editprofile-section p {
+   color: #FF00CE;
+   text-align: right;
+}
+
+.editprofile-section .sign-up {
+   color: #00FCCA;
+}
+
+.editprofile-section .btn-primary {
+   background-color: #18E3F1;
+}
+
+.editprofile-section .form-check {
+   margin-top: 5px;
+}
+
+
+
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
 @media only screen and (min-width: 1200px) {
