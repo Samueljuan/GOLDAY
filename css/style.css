@@ -252,11 +252,12 @@ ul, ol {
 
 .logo {
    float: left;
-}
-
-.logo a {
+   list-style: none;
+   color: white;
    display: inline-block;
-   padding: 24px 0 29px;
+   padding: 24px;
+   font-size: 20px;
+   font-weight: 600;
 }
 
 .nav-menu {
@@ -315,6 +316,8 @@ ul, ol {
 .slicknav_menu {
    display: none;
 }
+
+.header-section p {}
 
 /*---------------------
   Hero Section
@@ -566,7 +569,13 @@ ul, ol {
    color: #e85d39;
    margin-right: 4px;
 }
-
+.classes-section .btn-primary{
+   background-color: #FF0363;
+   border: transparent;
+}
+.classes-section .payment{
+   font-size: 20px;
+}
 /*---------------------
   Trainer Section
 -----------------------*/
@@ -1501,6 +1510,28 @@ ul, ol {
    margin-left: 25px;
 }
 
+.blog-details .bd-pic {
+   position: relative;
+   margin-bottom: 20px;
+}
+
+.blog-details .bd-pic img {
+   min-width: 100%;
+}
+
+.blog-details .bd-pic .play-btn {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translate(-41.5px, -41.5px);
+   -ms-transform: translate(-41.5px, -41.5px);
+   transform: translate(-41.5px, -41.5px);
+}
+
+.blog-details .btn-primary {
+   float: right;
+}
+
 /*---------------------
   Map Section
 -----------------------*/
@@ -1742,11 +1773,98 @@ ul, ol {
 
 .signup-section .sign-up {
    color: #00FCCA;
-  
 }
 
 .signup-section .btn-primary {
    background-color: #18E3F1;
+}
+
+.signup-section .form-check {
+   margin-top: 5px;
+}
+
+/*---------------------
+  Forget Password Section
+-----------------------*/
+
+.forget-section {
+   background: url(../img/login/forget.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   padding-top: 10em;
+}
+
+.forget-section .container {
+   width: 30%;
+   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+   padding: 40px;
+}
+
+.forget-section button {
+   width: 49%;
+}
+
+.forget-section p {
+   padding-top: 5%;
+   font-size: 13px;
+}
+
+.forget-section p.forget2 {
+   padding-top: 0;
+   font-size: 17px;
+   color: #000;
+}
+
+.forget-section .form-group, .forget-section h4 {
+   color: #FF00CE;
+}
+
+.forget-section p {
+   color: #FF00CE;
+}
+
+.forget-section .sign-up {
+   color: #00FCCA;
+}
+
+.forget-section p.forget {
+   color: #FF0363;
+   margin-top: -3em;
+}
+
+.forget-section .btn-primary {
+   background-color: #54008C;
+}
+
+.forget-section .btn-danger {
+   background-color: #FF0363;
+}
+
+/*---------------------
+  Payment Method Section
+-----------------------*/
+
+.payment-method .primary-btn .row{
+   width: 100%;
+}
+.payment-method .col-md-8{
+   background-color: #54008C;
+}
+.payment-method .btn-primary .row{
+   padding: 20px;
+}
+.payment-method .btn-primary .row .col-md-2{
+   padding: auto;
+   text-align: center;
+}
+.payment-method .container{
+   margin-bottom: 2em;
+}
+.payment-method .price{
+   padding-right: -100px;
 }
 
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
