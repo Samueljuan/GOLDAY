@@ -1349,6 +1349,10 @@ ul, ol {
    padding-top: 280px;
 }
 
+.blog-details h2{
+   color: #54008C;
+}
+
 .bd-hero-text {
    text-align: center;
 }
