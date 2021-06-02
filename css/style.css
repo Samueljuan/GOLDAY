@@ -569,13 +569,16 @@ ul, ol {
    color: #e85d39;
    margin-right: 4px;
 }
-.classes-section .btn-primary{
+
+.classes-section .btn-primary {
    background-color: #FF0363;
    border: transparent;
 }
-.classes-section .payment{
+
+.classes-section .payment {
    font-size: 20px;
 }
+
 /*---------------------
   Trainer Section
 -----------------------*/
@@ -1709,6 +1712,10 @@ ul, ol {
    width: 49%;
 }
 
+.login-section form .btn-primary {
+   width: 49%;
+}
+
 .login-section p {
    padding-top: 5%;
    font-size: 13px;
@@ -1755,6 +1762,10 @@ ul, ol {
    width: 50%;
    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
    padding: 40px;
+}
+
+.signup-section button {
+   width: 49%;
 }
 
 .signup-section button {
@@ -1811,6 +1822,10 @@ ul, ol {
    width: 49%;
 }
 
+.forget-section form .btn-primary {
+   width: 49%;
+}
+
 .forget-section p {
    padding-top: 5%;
    font-size: 13px;
@@ -1851,23 +1866,28 @@ ul, ol {
   Payment Method Section
 -----------------------*/
 
-.payment-method .primary-btn .row{
+.payment-method .primary-btn .row {
    width: 100%;
 }
-.payment-method .col-md-8{
+
+.payment-method .col-md-8 {
    background-color: #54008C;
 }
-.payment-method .btn-primary .row{
+
+.payment-method .btn-primary .row {
    padding: 20px;
 }
-.payment-method .btn-primary .row .col-md-2{
+
+.payment-method .btn-primary .row .col-md-2 {
    padding: auto;
    text-align: center;
 }
-.payment-method .container{
+
+.payment-method .container {
    margin-bottom: 2em;
 }
-.payment-method .price{
+
+.payment-method .price {
    padding-right: -100px;
 }
 
@@ -1879,6 +1899,7 @@ ul, ol {
    margin-top: 10em;
    margin-bottom: 10em;
 }
+
 .profile-section .btn-primary {
    float: right;
    background-color: #18E3F1;
@@ -1937,8 +1958,6 @@ ul, ol {
 .editprofile-section .form-check {
    margin-top: 5px;
 }
-
-
 
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 

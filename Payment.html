@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>GOLDAY | Edit Profile</title>
+   <title>GOLDAY | Payment</title>
 
    <!-- Google Font -->
    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
@@ -21,48 +21,64 @@
 </head>
 
 <body>
-   <section class="editprofile-section">
+   <section class="payment-section">
+   <br><br><br><br><br><br>
       <div class="container">
-         <h4 class="text-center">EDIT PASSWORD</h4>
+         <h4 class="text-left">DETAIL PEMBAYARAN</h4>
          <hr>
          <form>
             <div class="form-group">
-               <label for="">Kata Sandi Awal</label>
+               <label for="">Email</label>
                <div class="input-group">
                   <div class="input-group-prepend">
-                     <div class="input-group-text"><i class="fas fa-user"></i></div>
                   </div>
-                  <input type="password" name="uid" class="form-control" placeholder="Masukan Username Anda">
+                  <input type="email" name="uid" class="form-control">
                </div>
             </div>
-
             <div class="form-group">
-               <label for="">Password Baru</label>
+               <label for="">Card Information</label>
                <div class="input-group">
                   <div class="input-group-prepend">
-                     <div class="input-group-text"><i class="fas fa-lock"></i></div>
                   </div>
-                  <input type="password" class="form-control" name="pwd" id="" placeholder="Masukkan Password Anda">
+                  <input type="password" class="form-control" name="pwd" id="" placeholder="1234 1234 1234 1234">
                </div>
             </div>
-
+            <div class="row">
+				   <div class="form-group col-md-6">
+					  <div class="input-group">
+						 <input type="number" class="form-control" name="pwd" id="" placeholder="MM/YY">
+					  </div>
+				   </div>
+				   <div class="form-group col-md-6">
+					  <div class="input-group">
+						 <input type="number" class="form-control" name="pwd" id="" placeholder="CVC">
+						 <div class="input-group-prepend">
+						 </div>
+					  </div>
+				   </div>
+				</div>
             <div class="form-group">
-               <label for="">Ulangi Password Baru</label>
+               <label for="">Name On Card</label>
                <div class="input-group">
                   <div class="input-group-prepend">
-                     <div class="input-group-text"><i class="fas fa-lock"></i></div>
                   </div>
-                  <input type="password" class="form-control" name="pwd" id="" placeholder="Masukkan Password Anda">
+                  <input type="text" class="form-control" name="pwd" id="">
                </div>
             </div>
-            <a href="login-profile.html" class="btn btn-primary submit" name="submit">SUBMIT</a>
-            <button type="reset" class="btn btn-danger"> RESET</button>
-            <br><br><br>
+            <div class="form-group">
+               <label for="">Region</label>
+               <div class="input-group">
+                  <div class="input-group-prepend">
+                  </div>
+                  <input type="text" class="form-control" name="pwd" id="">
+               </div>
+            </div>
+            <button type="submit" class="btn btn-primary" name="submit"><a href="Payment Berhasil.html">PAY IDR 1.200.000</button>
+			</span></a></p>
          </form>
-         
       </div>
-      <br><br><br><br>
       </div>
+	  <br><br><br><br><br><br><br>
    </section>
    <script src="js/jquery-3.3.1.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
