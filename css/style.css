@@ -1352,7 +1352,7 @@ ul, ol {
    padding-top: 280px;
 }
 
-.blog-details h2{
+.blog-details h2 {
    color: #54008C;
 }
 
@@ -1889,6 +1889,116 @@ ul, ol {
 
 .payment-method .price {
    padding-right: -100px;
+}
+
+/*---------------------
+  Payment Section
+-----------------------*/
+
+.payment-section {
+   background: url(../img/payment/newsletter-desktop.jpg);
+   background-size: 50% 100%;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: fixed;
+   padding-left: 47em;
+   padding-top: 0em;
+}
+
+.payment-section .container {
+   width: 75%;
+   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+   padding: 40px;
+   background-color: #55008C;
+   color: #fff;
+}
+
+.payment-section a {
+   width: 100%;
+}
+
+.payment-section p {
+   padding-top: 5%;
+   font-size: 13px;
+}
+
+.payment-section .form-group, .payment-section h4 {
+   color: #FFF;
+}
+
+.payment-section p {
+   color: #FFF;
+   text-align: right;
+}
+
+.payment-section .sign-up {
+   color: #F6F5F9;
+}
+
+.payment-section .btn-primary {
+   background-color: #DD1DF4;
+   border-color: #DD1DF4;
+}
+
+.payment-section .form-check {
+   margin-top: 5px;
+}
+
+/*---------------------
+  Payment Section Berhasil
+-----------------------*/
+
+.berhasil-section {
+   background: url(../img/payment/newsletter-desktop.jpg);
+   background-size: 50% 100%;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: fixed;
+   padding-left: 47em;
+   padding-top: 0em;
+}
+
+.berhasil-section h4{
+   color: #fff;
+}
+
+.berhasil-section .container {
+   width: 75%;
+   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+   padding: 50px;
+   background-color: #55008C;
+   color: #fff;
+}
+
+.berhasil-section a {
+   width: 100%;
+}
+
+.berhasil-section p {
+   padding-top: 5%;
+   font-size: 13px;
+}
+
+.berhasil-section .form-group, .payment-section h4 {
+   color: #FAFAFA;
+}
+
+.berhasil-section p {
+   color: #FFF;
+   text-align: right;
+}
+
+.berhasil-section .sign-up {
+   color: #FFF;
+}
+
+.berhasil-section .btn-primary {
+   background-color: #FF00CC;
+   border: none;
+}
+
+.berhasil-section .form-check {
+   margin-top: 5px;
 }
 
 /*---------------------
