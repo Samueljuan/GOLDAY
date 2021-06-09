@@ -1364,6 +1364,14 @@ ul, ol {
    font-weight: 600;
    line-height: 30px;
 }
+.single-blog-item .play-btn {
+   position: absolute;
+   left: 50%;
+   top: 30%;
+   -webkit-transform: translate(-41.5px, -41.5px);
+   -ms-transform: translate(-41.5px, -41.5px);
+   transform: translate(-41.5px, -41.5px);
+}
 
 /*----------------------------
   Blog Details Hero Section
