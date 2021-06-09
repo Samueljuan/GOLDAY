@@ -1158,6 +1158,24 @@ ul, ol {
    transition: all 0.5s;
 }
 
+.schedule-table table tbody tr td.premium:after {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background: -webkit-gradient(linear, left top, right top, from(#00FCCA), to(#18E3F1));
+   background: -o-linear-gradient(left, #00FCCA, #18E3F1);
+   background: linear-gradient(to right, #00FCCA, #18E3F1);
+   content: "";
+   opacity: 0;
+   z-index: -1;
+   -webkit-transition: all 0.5s;
+   -o-transition: all 0.5s;
+   transition: all 0.5s;
+}
+
+
 .schedule-table table tbody tr td.hover-bg:hover h6 {
    color: #ffffff;
 }
@@ -1188,6 +1206,13 @@ ul, ol {
    margin-bottom: 5px;
 }
 
+.schedule-table table tbody tr td.premium h6 {
+   font-weight: 600;
+   color: #18E3F1;
+   text-transform: uppercase;
+   margin-bottom: 5px;
+}
+
 .schedule-table table tbody tr td span {
    font-size: 14px;
    font-weight: 600;
@@ -1198,6 +1223,8 @@ ul, ol {
    font-size: 14px;
    color: #6b6b6b;
 }
+
+
 
 /*---------------------
   About Counter
