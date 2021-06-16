@@ -1781,7 +1781,7 @@ ul, ol {
 -----------------------*/
 
 .signup-section {
-   background: url(../img/login/signup.jpg);
+   background: url(../img/login/signup1.jpg);
    background-size: cover;
    background-size: cover;
    -webkit-background-size: cover;
@@ -1790,6 +1790,7 @@ ul, ol {
    -ms-background-size: cover;
    background-attachment: fixed;
    padding-top: 10em;
+   margin-top: -5em;
 }
 
 .signup-section .container {
@@ -1857,6 +1858,10 @@ ul, ol {
 }
 
 .forget-section form .btn-primary {
+   width: 49%;
+}
+
+.forget-section form .btn-danger {
    width: 49%;
 }
 
