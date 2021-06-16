@@ -1728,6 +1728,7 @@ ul, ol {
 
 .login-section {
    background: url(../img/login/login.jpg) no-repeat center center fixed;
+   background-position-y: 1px;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -1832,6 +1833,11 @@ ul, ol {
 .signup-section .form-check {
    margin-top: 5px;
 }
+
+.signup-section .btn-primary{
+   width: 49%;
+}
+
 
 /*---------------------
   Forget Password Section
@@ -2064,6 +2070,7 @@ ul, ol {
    background: url(../img/login/signup.jpg);
    background-size: cover;
    background-size: cover;
+   background-position-y: -1em;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -2076,6 +2083,7 @@ ul, ol {
    width: 50%;
    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
    padding: 40px;
+   margin-top: -8em;
 }
 
 .editprofile-section button {
@@ -2102,11 +2110,13 @@ ul, ol {
 
 .editprofile-section .btn-primary {
    background-color: #18E3F1;
+   width: 49%;
 }
 
 .editprofile-section .form-check {
    margin-top: 5px;
 }
+
 
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
